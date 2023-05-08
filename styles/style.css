@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root {
+    --azul: rgb(0, 149, 246);
+    --facebook: #385185;
+    --ig-link: rgb(0, 55, 107);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.login {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.wrapper {
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 1px;
+}
+
+.wrapper.cadastro {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form button {
+    background-color: var(--azul);
+    border: none;
+    border-radius: 10px;
+    margin: 15px 0 15px 0;
+    align-self: auto;
+    width: 268px;
+    height: 32px;
+    color: white;
+}
+
+form input {
+    margin: 5px 0;
+    padding: 9px 0 7px 8px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+span {
+    font-size: 14px;
+}
+
+.download img {
+    height: 40px;
+}
+
+.ou {
+    color: rgb(139, 139, 139);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid rgb(219, 219, 219);
+}
+
+
+.facebook {
+    color: var(--facebook);
+    font-size: 14px;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.facebook img {
+    width: 16px;
+}
+
+footer {
+    color: rgb(139, 139, 139);
+    text-align: center;
+}
+
+ul {
+    font-size: 13px;
+    list-style: none;
+    display: flex;
+    margin: 50px 40px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin: auto;
+}
+
+select {
+    color: rgb(139,139,139);
+    margin-bottom: 20px;
+}
